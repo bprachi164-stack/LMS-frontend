@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f8f9ff;
+}
+
+/* Navbar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #023e8a;
+  color: white;
+}
+
+.nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Buttons */
+.btn {
+  padding: 8px 14px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.primary {
+  background: white;
+  color: #023e8a;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+/* Features */
+.features {
+  padding: 40px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+/* Auth */
+.auth {
+  max-width: 300px;
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+}
